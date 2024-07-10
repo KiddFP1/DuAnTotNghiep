@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vb;
+    background: #9cf0f3;
+}
+.login-form{
+    width: 500px;
+    height: 1000x;
+    background: #fafdfd;
+    color: #000102;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 120px 30px;
+}
+.login-form .avatar{
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    left: calc(47% - 50px);
+}
+.login-form h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-form label{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    display: block;
+}
+.login-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-form input[type="text"], .login-form input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #030000;
+    font-size: 16px;
+}
+.login-form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #3c0fb8;
+    color: #030000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-form input[type="submit"]:hover {
+    cursor: pointer;
+    background: #12649b;
+    color: #000;
+}
+.login-form a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+}
+.login-form a:hover{
+    color: #174de4;
+}
